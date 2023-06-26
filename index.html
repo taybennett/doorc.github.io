@@ -1,1 +1,82 @@
-Hello Work
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DORC - Home</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            background-image: url("images/Homepage_Background.jpg");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="images/Dardenlogo.jpg" alt="DORC Logo" width="30" height="30" class="d-inline-block align-top">Darden Outdoor Research Club (DORC)
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Trips</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Sign Up</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="container mt-4">
+        <!-- This is where the trip cards will go. We'll generate these dynamically with JavaScript later. -->
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/Yosimite_thumbnail.jpg" alt="Card image cap">
+                    <div class="card-body">
+                     <h5 class="card-title">Yosemite National Park</h5>
+                     <p class="card-text">Trip Description</p>
+                     <a href="#" class="btn btn-primary">Join Trip</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/Jackson_Hole_thumbnail.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Jackson Hole</h5>
+                        <p class="card-text">Trip Description</p>
+                        <a href="#" class="btn btn-primary">Join Trip</a>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="images/Arches_thumbnail.jpg" alt="Card image cap">
+                     <div class="card-body">
+                        <h5 class="card-title">Arches National Park</h5>
+                        <p class="card-text">Trip Description</p>
+                        <a href="#" class="btn btn-primary">Join Trip</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <!-- Start a new row for the next set of cards -->           
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.card-img-top {
+    width: 100%;  /* This will make the image take the full width of the card */
+    height: 200px;  /* Set a specific height */
+    object-fit: cover;  /* This will make the image cover the area without distorting the aspect ratio */
+}
+
+footer {
+    margin-top: auto;
+}
